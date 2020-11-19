@@ -1,4 +1,5 @@
-# Filter Customer by Distance
+# 1. Technical Problem
+## Filter Customer by Distance
 
 ## Working:
 - Reads the input file cutomer.txt provided in the spec.
@@ -74,3 +75,27 @@ Inside output_files/output.txt
 {"user_id": 31, "name": "Alan Behan"}
 {"user_id": 39, "name": "Lisa Ahearn"}
 ```
+
+
+
+# 2. Proudest Moment
+
+## Newsroom Platform
+
+## Professional Experience:
+This is the project I had worked proffesionally for Saranyu Technologies Pvt. Ltd.
+ 
+Brief:
+I have built this project from scratch, which is supposed to serve 28 states and 16 languages across India. I was placed in the client location till the first release was done and satisfied by the client. I was directly interacting with the Head of the project and involved in planning the features for the platform.
+
+Worked closely with front end team, mobile team and On prem server team. It is a great experience developing and demostrating the newsroom to the newsroom Editors.
+
+Proud work in this project as I get chance to interact with head and allmost all the team involved in bringing this project live.
+
+## Personal Experience:
+Recently I have been learning GCP service, since I am big fan of Google. 
+
+After completing the specialization course on coursera I developed an end to end solution using GCP service like Dataflow and BigQuery.
+
+Also have written and article with a walkthough video inside the article:
+https://medium.com/analytics-vidhya/datapiepeline-using-apache-beam-and-google-cloud-dataflow-as-runner-and-bigquery-as-datasink-a6dcfadc8428
