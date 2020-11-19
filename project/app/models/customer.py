@@ -29,6 +29,9 @@ class Customer:
         return customers
     
     def filter_by_distance(self, o_lat, o_lon, all_customers, distance):
+        if distance < 0. or len(all_customers) == 0:
+            return []
+        
         import numpy as np
         office_latitude = radians(o_lat)
         office_longitude = radians(o_lon)

@@ -29,8 +29,7 @@ class CustomerController:
         
     def output_customer(self, output_file):
         import json
-        with open(output_file, mode="w") as fp:
-            
+        with open(output_file, mode="w") as fp:         
             for data in self.filtered_data:
                 fp.write(json.dumps(data) + "\n")
 

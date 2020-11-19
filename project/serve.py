@@ -1,16 +1,17 @@
 from app.controllers.customer_controller import CustomerController
-from app.models.customer import Customer
 import argparse
 
 
-if __name__ == "__main__":
-      
+
+def run():
+            
       parser = argparse.ArgumentParser()
       
       parser.add_argument(
             '--input',
             dest='input',
             default='./input_files/',
+            required=False,
             help='Input file to path'
       )
       
@@ -24,21 +25,21 @@ if __name__ == "__main__":
       parser.add_argument(
             '--distance',
             dest='distance',
-            default=100.,
+            default='100.',
             help='Filter customers by specified distance in KM'
       )
       
       parser.add_argument(
             '--office_latitude',
             dest='o_lat',
-            default=53.339428,
+            default='53.339428',
             help='Dublin Office Latitude'
       )
       
       parser.add_argument(
             '--office_longitude',
             dest='o_lon',
-            default=-6.257664,
+            default='-6.257664',
             help='Dublin Office Longitude'
       )
       
@@ -46,14 +47,14 @@ if __name__ == "__main__":
       args = parser.parse_args()
       obj = CustomerController(args.input)
       obj.create()
-      obj.fetch_customer_by_distance(args.o_lat, args.o_lon, args.distance)
+      obj.fetch_customer_by_distance(
+            float(args.o_lat), 
+            float(args.o_lon), 
+            float(args.distance)
+      )
       obj.output_customer(args.output)
       
-      
-      """
-      customer.read_from_text()
-      customer.find_within_100_miles()
-      user_ids = customer.fetch_user_ids()
-      
-      print(user_ids)
-      """
+
+
+if __name__ == "__main__":
+      run()
