@@ -10,15 +10,33 @@
 
 
 ## Folder Structure:
-- requirements.txt  ## All the required libraries are mentioned.
-- serve.py          ## Program starts here defining the required input arguments.
-- test.py           ## All the test cases required for the program is written in here.
-- app       
-      - controllers
-            - CustomerController.py  ## Business Logic is written in here, i.e. Filtering.
-      - models
-            - Customer.py            ## This represent a database objects. And provides necessary filtering methods.
+```
+.
+├── project
+│   ├── app
+│   │   ├── controllers
+│   │   │   ├── customer_controller.py
+│   │   │   └── __pycache__
+│   │   │       └── customer_controller.cpython-36.pyc
+│   │   └── models
+│   │       ├── customer.py
+│   │       └── __pycache__
+│   │           └── customer.cpython-36.pyc
+│   ├── input_files
+│   │   └── customers.txt
+│   ├── output_files
+│   │   └── output.txt
+│   ├── __pycache__
+│   │   ├── serve.cpython-36.pyc
+│   │   ├── tests.cpython-36-pytest-6.1.2.pyc
+│   │   ├── test_serve.cpython-36.pyc
+│   │   └── test_serve.cpython-36-pytest-6.1.2.pyc
+│   ├── requirements.txt
+│   ├── serve.py
+│   └── test_serve.py
+└── README.md
 
+```
 
 ## Installation:
 Run the below command inside the root directory(Where the serve.py file is residing).
