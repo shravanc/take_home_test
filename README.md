@@ -82,7 +82,7 @@ Inside output_files/output.txt
 
 ## Newsroom Platform
 
-## Professional Experience:
+## 1. Professional Experience:
 This is the project I had worked proffesionally for Saranyu Technologies Pvt. Ltd.
  
 Brief:
@@ -92,7 +92,7 @@ Worked closely with front end team, mobile team and On prem server team. It is a
 
 Proud work in this project as I get chance to interact with head and allmost all the team involved in bringing this project live.
 
-## Personal Experience:
+## 2. Personal Experience:
 Recently I have been learning GCP service, since I am big fan of Google. 
 
 After completing the specialization course on coursera I developed an end to end solution using GCP service like Dataflow and BigQuery.
